@@ -47,7 +47,7 @@ public class MiClaseTest {
         int b = 0;
         int c = 0;
         MiClase instance = new MiClase();
-        int expResult = 0;
+        int expResult = 10;
         int result = instance.numero_mayor(a, b, c);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
